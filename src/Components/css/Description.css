@@ -25,28 +25,41 @@
   width: 50%;
 }
 
-.btn-home{
-    text-align: center;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
-    background-color: lightgreen;
-    color: white;
-    border: none;
-    font-size: large;
-    font-weight: bold;
-    
+.btn-home {
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: lightgreen;
+  color: white;
+  border: none;
+  font-size: large;
+  font-weight: bold;
 }
 
-.details{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-@media screen and (min-width: 375px) and (max-width: 1080px) {
-    /* .details{
+@media screen and (min-width: 375px) and (max-width: 800px) {
+  /* .details{
        
     } */
+  .desc-title {
+    font: 21px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+  }
+
+  .desc {
+    text-align: left;
+    font: 18px/21px Montserrat;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+  }
 }

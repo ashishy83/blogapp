@@ -42,7 +42,6 @@
 .g3 {
   width: 465px;
   height: 295px;
-  /* border: 1px solid red; */
   border-radius: 10px;
   margin: 2%;
 }
@@ -54,11 +53,7 @@ hr {
 }
 
 .heading-big {
-  /* text-align: left;
-  font: medium 'Montserrat', sans-serif;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1; */
+
   position: relative;
   bottom: 30%;
   color: white;
@@ -84,4 +79,47 @@ hr {
   margin: 3%;
   justify-content: space-evenly;
 
+}
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    margin: 1% auto;
+    /* border: 1px solid orangered; */
+  }
+
+  .grid-box{
+    flex-direction: column;
+  }
+  .g1{
+    display: none;
+  }
+  .big-img{
+    width: 70%;
+    height: 50vh;
+  }
+  .g1-g2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+  }
+  .g2,.g3{
+    width: 90%;
+  }
+
+  .right-article{
+    display: none;
+  }
+  .footer-post{
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .latest-article{
+    justify-content: center;
+  }
 }

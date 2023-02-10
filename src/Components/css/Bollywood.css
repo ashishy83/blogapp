@@ -8,3 +8,15 @@
     flex-direction: column;
     
 }
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+
+.bolly-post{
+    flex-direction: column;
+}
+
+.left{
+    width: 100%;
+    
+}
+}

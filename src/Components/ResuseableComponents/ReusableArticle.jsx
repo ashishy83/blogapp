@@ -26,6 +26,7 @@ const ResusableArticle = (props) => {
       </div>
     </NavLink>
   );
+  
 };
 
 export default ResusableArticle;

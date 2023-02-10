@@ -15,13 +15,7 @@ const Home = () => {
     <>
       <div className="grid-box">
         <div className="g1">
-          {/* <img
-            src="https://th.bing.com/th/id/R.efb9015189390e10e99e2d4617e951b5?rik=xpaey3TE%2fyZgVg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2fc%2fd%2f257781.jpg&ehk=6MP4LslHiQqtjHTaElLcVb%2f3p3fHS8o9V7OME5K%2fves%3d&risl=&pid=ImgRaw&r=0"
-            alt="mountain"
-            className="big-img"
-          />
-          <h2 className="heading-big">Title of the vertical gallery</h2>
-          <p className="date-big">Travel / August 21 2017</p> */}
+         
           <Link to="/Technology">
             {" "}
             <img
@@ -35,20 +29,7 @@ const Home = () => {
         </div>
         <div className="g2-g3">
         <div className="g2">
-          {/* {detail
-            .filter((article) => {
-              return article.category === "bollywood";
-            })
-            .map((item) => (
-              <CardHome
-                key={item.id}
-                articleid={item.id}
-                imgUrl={item.img}
-                title={item.title}
-                description={item.description.slice(0, 100)}
-                author={item.author}
-              />
-            ))} */}
+      
           <Link to="/fitness">
             {" "}
             <img
@@ -60,20 +41,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="g3">
-          {/* {detail
-            .filter((article) => {
-              return article.category === "bollywood";
-            })
-            .map((item) => (
-              <CardHome
-                key={item.id}
-                articleid={item.id}
-                imgUrl={item.img}
-                title={item.title}
-                description={item.description.slice(0, 100)}
-                author={item.author}
-              />
-            ))} */}
+        
           <Link to="/Food">
             {" "}
             <img
@@ -180,7 +148,7 @@ const Home = () => {
                 key={n.id}
                 articleid={n.id}
                 imgUrl={n.img}
-                title={n.title}
+                title={n.title.slice(0, 60)}
                 description={n.description.slice(0, 100)}
                 author={n.author}
               />
@@ -196,7 +164,7 @@ const Home = () => {
                 key={n.id}
                 articleid={n.id}
                 imgUrl={n.img}
-                title={n.title}
+                title={n.title.slice(0,50)}
                 description={n.description.slice(0, 100)}
                 author={n.author}
               />
@@ -212,7 +180,7 @@ const Home = () => {
                 key={n.id}
                 articleid={n.id}
                 imgUrl={n.img}
-                title={n.title}
+                title={n.title.slice(0, 50)}
                 description={n.description.slice(0, 101)}
                 author={n.author}
               />

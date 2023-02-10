@@ -6,7 +6,7 @@ ul {
   background-color: #000000;
   /* border: 1px solid red; */
  /* margin-left: 4%; */
- margin: 1% auto;
+ margin: 0% auto;
 }
 .navlink {
   text-transform: uppercase;
@@ -26,3 +26,15 @@ ul {
   text-decoration: none;
 }
 
+@media screen and (min-width: 375px) and (max-width: 800px){
+  ul{
+      flex-direction: column;
+      align-items: center;
+      opacity: .85;
+  }
+  .navlink{
+    /* text-decoration: underline; */
+    margin: 1%;
+  }
+
+}
